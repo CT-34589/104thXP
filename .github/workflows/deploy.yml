@@ -30,8 +30,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          # Change to your repo name if not 104thXP
-          VITE_BASE_PATH: /104thXP/
+          VITE_BASE_PATH: ./
 
       - uses: actions/upload-pages-artifact@v3
         with:

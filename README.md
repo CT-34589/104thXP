@@ -19,8 +19,7 @@ Open http://localhost:5173
 
 1. Push this repo to GitHub (e.g. `104thXP`)
 2. **Settings → Pages → Build and deployment**: set source to **GitHub Actions**
-3. If your repo name is not `104thXP`, edit `VITE_BASE_PATH` in `.github/workflows/deploy.yml`
-4. Push to `main` — the deploy workflow runs automatically
+3. Push to `main` — the deploy workflow runs automatically
 
 ## Bot data updates (every 10 minutes)
 
