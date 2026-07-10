@@ -12,10 +12,7 @@ export function RankLegend() {
         </CardDescription>
       </CardHeader>
       <CardContent className="space-y-3 p-4 sm:p-5">
-        <p className="siege-cut overflow-x-auto border border-[var(--color-border)] bg-black/28 px-3 py-2 font-mono text-[11px] leading-5 text-[var(--color-muted-foreground)] sm:text-xs">
-          level = floor((−1 + √(1 + XP/625)) / 2) when XP &lt; 2,250,000 · else 30 +
-          floor((XP − 2,250,000) / 147,500)
-        </p>
+        
         <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
           {RANKS.map((rank) => {
             const levelLabel =
