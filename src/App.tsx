@@ -93,7 +93,7 @@ function LeaderboardPage() {
       </main>
 
       <footer className="border-t border-white/8 bg-black/20 px-4 py-6 text-center text-xs text-[var(--color-muted-foreground)]">
-        104th Battalion Milsim · Ranked ladder · Updates every 60 seconds
+        104th Battalion Milsim
       </footer>
     </div>
   )
