@@ -1,4 +1,12 @@
 {
-  "lastUpdated": "2026-07-09T15:00:00.000Z",
-  "players": [],
+  "lastUpdated": "2026-07-11T00:10:45.304Z",
+  "players": [
+    {
+      "id": "434076591052685322",
+      "displayName": "Ollie",
+      "callsign": "CT-34589",
+      "platform": "Xbox",
+      "xp": 774
+    }
+  ]
 }
