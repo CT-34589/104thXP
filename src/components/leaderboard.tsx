@@ -150,7 +150,7 @@ export function LeaderboardTable({ players, memberSearch, platformFilter }: Lead
 
       <div className="grid grid-cols-2 gap-px bg-[#262b35]">
         <div className="bg-[#171b24] p-3.5">
-          <p className="text-xs font-black uppercase text-[var(--color-muted-foreground)]">Rank Points</p>
+          <p className="text-xs font-black uppercase text-[var(--color-muted-foreground)]">XP</p>
           <p className="mt-1 font-mono text-xl font-black text-white">
             {selectedPlayer.xp.toLocaleString()}
           </p>
@@ -263,7 +263,7 @@ export function LeaderboardTable({ players, memberSearch, platformFilter }: Lead
               <TableHead className="text-xs font-black">Player</TableHead>
               <TableHead className="hidden text-xs font-black md:table-cell">Rank</TableHead>
               <TableHead className="hidden text-center text-xs font-black lg:table-cell">Level</TableHead>
-              <TableHead className="text-right text-xs font-black">Rank Points</TableHead>
+              <TableHead className="text-right text-xs font-black">XP</TableHead>
               <TableHead className="hidden text-right text-xs font-black md:table-cell">To Next</TableHead>
               <TableHead className="w-12" />
             </TableRow>
