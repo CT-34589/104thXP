@@ -29,10 +29,10 @@ Open http://localhost:5173
 |----------|-------|
 | **Update same file** (`public/data/leaderboard.json`) | Preferred — one file, overwrite in place |
 | **10 min interval** | Fine for a small ops leaderboard (~144 commits/day) |
-| **Use `[skip ci]` in commit message** | Optional — avoids redeploying the site on every data push; the frontend polls JSON directly anyway |
+| **Use `[skip ci]` in commit message** | Optional — the frontend reads the raw GitHub JSON, so data updates do not need a Pages rebuild |
 | **Separate data branch** | Alternative if you want zero commits on `main` |
 
-The site polls `data/leaderboard.json` every **60 seconds** with cache-busting, so troopers see updates without a full page rebuild. Your bot can push every 10 minutes; the UI will pick up changes on the next poll.
+The site polls `https://raw.githubusercontent.com/CT-34589/104thXP/main/public/data/leaderboard.json` every **60 seconds** with cache-busting, so troopers see updates without a full page rebuild. Your bot can push every 10 minutes; the UI will pick up changes on the next poll. To use a different data source, set `VITE_LEADERBOARD_URL` during the site build.
 
 ### JSON schema
 

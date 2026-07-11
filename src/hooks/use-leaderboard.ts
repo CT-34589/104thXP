@@ -2,6 +2,10 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import type { LeaderboardData } from '@/types/leaderboard'
 
 const POLL_INTERVAL_MS = 60_000
+const DEFAULT_LEADERBOARD_URL =
+  'https://raw.githubusercontent.com/CT-34589/104thXP/refs/heads/master/public/data/leaderboard.json'
+
+const leaderboardUrl = import.meta.env.VITE_LEADERBOARD_URL ?? DEFAULT_LEADERBOARD_URL
 
 interface UseLeaderboardResult {
   data: LeaderboardData | null
@@ -26,7 +30,7 @@ export function useLeaderboard(): UseLeaderboardResult {
     if (showIndicator && hasData.current) setRefreshing(true)
 
     try {
-      const url = `${import.meta.env.BASE_URL}data/leaderboard.json?t=${Date.now()}`
+      const url = `${leaderboardUrl}?t=${Date.now()}`
       const res = await fetch(url, { cache: 'no-store' })
       if (!res.ok) throw new Error(`Failed to load leaderboard (${res.status})`)
       const payload = await res.text()
