@@ -3,7 +3,7 @@ import type { LeaderboardData } from '@/types/leaderboard'
 
 const POLL_INTERVAL_MS = 60_000
 const DEFAULT_LEADERBOARD_URL =
-  'https://raw.githubusercontent.com/CT-34589/104thXP/refs/heads/master/public/data/leaderboard.json'
+  'https://leaderboard.104thbattalion.com/api/leaderboard'
 
 const leaderboardUrl = import.meta.env.VITE_LEADERBOARD_URL ?? DEFAULT_LEADERBOARD_URL
 
