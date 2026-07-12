@@ -68,9 +68,9 @@ function LeaderboardPage() {
           <div className="rounded-lg border border-[var(--color-destructive)]/40 bg-[var(--color-destructive)]/10 px-4 py-3 text-sm">
             Could not load leaderboard data. Ensure{' '}
             <code className="rounded bg-[var(--color-muted)] px-1.5 py-0.5 font-mono text-xs">
-              public/data/leaderboard.json
+              /api/leaderboard
             </code>{' '}
-            exists and your bot is pushing updates.
+            is reachable and returning valid leaderboard JSON.
           </div>
         )}
 
@@ -82,9 +82,9 @@ function LeaderboardPage() {
           />
         ) : !loading && !error ? (
           <div className="rounded-lg border border-dashed border-[var(--color-border)] px-6 py-16 text-center">
-            <p className="text-lg font-medium">No troopers on the board yet</p>
+            <p className="text-lg font-medium">No members</p>
             <p className="mt-2 text-sm text-[var(--color-muted-foreground)]">
-              Your bot should write player data to leaderboard.json
+              The leaderboard API returned an empty member list.
             </p>
           </div>
         ) : null}

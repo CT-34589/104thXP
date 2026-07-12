@@ -457,7 +457,7 @@ From the repo folder:
 ```powershell
 cd C:\104thXP
 npm install
-npm install fastify pg dotenv
+npm install fastify pg dotenv @fastify/cors
 ```
 
 If this API is in its own folder instead of the main Vite repo, make sure the folder has a `package.json` that enables ESM imports:
@@ -465,7 +465,7 @@ If this API is in its own folder instead of the main Vite repo, make sure the fo
 ```powershell
 npm init -y
 npm pkg set type=module
-npm install fastify pg dotenv
+npm install fastify pg dotenv @fastify/cors
 ```
 
 The important line in `package.json` is:
@@ -487,12 +487,21 @@ Example API:
 ```js
 import 'dotenv/config'
 import Fastify from 'fastify'
+import cors from '@fastify/cors'
 import pg from 'pg'
 
 const { Pool } = pg
 
 const app = Fastify({
   logger: true,
+})
+
+await app.register(cors, {
+  origin: [
+    'https://104thbattalionmilsim.com',
+    'https://www.104thbattalionmilsim.com',
+  ],
+  methods: ['GET'],
 })
 
 const pool = new Pool({
