@@ -2,6 +2,7 @@ import { DevRankTool } from '@/components/dev-rank-tool'
 import { LeaderboardTable, StatsBar } from '@/components/leaderboard'
 import { RankLegend } from '@/components/rank-legend'
 import { useLeaderboard } from '@/hooks/use-leaderboard'
+import { AlertTriangle } from 'lucide-react'
 import { useState } from 'react'
 import battalionLogo from '@/assets/104th-battalion-logo.png'
 
@@ -22,6 +23,13 @@ function LeaderboardPage() {
 
   return (
     <div className="site-shell min-h-screen bg-[var(--color-background)]">
+      <div className="border-b border-amber-300/20 bg-amber-400 px-4 py-2 text-black">
+        <div className="mx-auto flex max-w-7xl items-center justify-center gap-2 text-center text-xs font-black uppercase tracking-wide sm:text-sm">
+          <AlertTriangle className="h-4 w-4 shrink-0" />
+          <span>This site is in beta. Leaderboard data and features may change.</span>
+        </div>
+      </div>
+
       <header className="sticky top-0 z-20 border-b border-white/8 bg-[#0c0f15]/88 shadow-lg shadow-black/20 backdrop-blur-xl">
         <div className="mx-auto flex h-14 max-w-7xl items-center gap-2.5 px-4 sm:h-16 sm:px-6 lg:px-8">
           <img
