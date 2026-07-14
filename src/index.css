@@ -97,6 +97,45 @@ input:focus-visible {
   outline-offset: 2px;
 }
 
+.leaderboard-search-input:focus,
+.leaderboard-search-input:focus-visible {
+  outline: none;
+}
+
+.leaderboard-search-input::-webkit-search-cancel-button {
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  appearance: none;
+  background-color: var(--color-siege-yellow);
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 6 6 18'/%3E%3Cpath d='m6 6 12 12'/%3E%3C/svg%3E") center / contain no-repeat;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 6 6 18'/%3E%3Cpath d='m6 6 12 12'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+.podium-row-1 {
+  background-color: #2e2c20;
+}
+
+.podium-row-2 {
+  background-color: #29303d;
+}
+
+.podium-row-3 {
+  background-color: #2d2224;
+}
+
+.podium-place-1 {
+  color: var(--color-siege-yellow);
+}
+
+.podium-place-2 {
+  color: #d8e0ec;
+}
+
+.podium-place-3 {
+  color: #f59e0b;
+}
+
 .siege-panel {
   clip-path: polygon(0 0, calc(100% - 18px) 0, 100% 18px, 100% 100%, 18px 100%, 0 calc(100% - 18px));
 }

@@ -1,12 +1,2151 @@
 {
-  "lastUpdated": "2026-07-11T03:05:12.541Z",
+  "lastUpdated": "2026-07-14T20:40:30.312Z",
+  "season": "Season 1",
   "players": [
+    {
+      "id": "1420549174427914321",
+      "displayName": "RTJ",
+      "callsign": "CT-25-325",
+      "platform": "xbox",
+      "xp": 45432,
+      "level": 3
+    },
+    {
+      "id": "504756720988454912",
+      "displayName": "Algorithm",
+      "callsign": "CT-28613",
+      "platform": "xbox",
+      "xp": 42088,
+      "level": 3
+    },
     {
       "id": "434076591052685322",
       "displayName": "Ollie",
       "callsign": "CT-34589",
       "platform": "xbox",
-      "xp": 12000
+      "xp": 38529,
+      "level": 3
+    },
+    {
+      "id": "693729679353577502",
+      "displayName": "Sankey",
+      "callsign": "CT-22-600",
+      "platform": "xbox",
+      "xp": 37747,
+      "level": 3
+    },
+    {
+      "id": "849763409367924766",
+      "displayName": "Heavenly",
+      "callsign": "CT-34333",
+      "platform": "xbox",
+      "xp": 36201,
+      "level": 3
+    },
+    {
+      "id": "1110722772960813106",
+      "displayName": "Charles",
+      "callsign": "CT-25-265",
+      "platform": "xbox",
+      "xp": 30570,
+      "level": 3
+    },
+    {
+      "id": "459067035528331264",
+      "displayName": "Cliff",
+      "callsign": "ARC-9902",
+      "platform": "xbox",
+      "xp": 27822,
+      "level": 2
+    },
+    {
+      "id": "447501342572019713",
+      "displayName": "Singe",
+      "callsign": "CT-5885",
+      "platform": "xbox",
+      "xp": 25596,
+      "level": 2
+    },
+    {
+      "id": "234792077970374658",
+      "displayName": "Haez",
+      "callsign": "CT-31616",
+      "platform": "xbox",
+      "xp": 25093,
+      "level": 2
+    },
+    {
+      "id": "754338472059469870",
+      "displayName": "Scruff",
+      "callsign": "ARC-28304",
+      "platform": "xbox",
+      "xp": 23591,
+      "level": 2
+    },
+    {
+      "id": "538744561598726190",
+      "displayName": "Servo",
+      "callsign": "CT-34041",
+      "platform": "xbox",
+      "xp": 20540,
+      "level": 2
+    },
+    {
+      "id": "775753055739183114",
+      "displayName": "Deeby",
+      "callsign": "CT-23-729",
+      "platform": "xbox",
+      "xp": 19395,
+      "level": 2
+    },
+    {
+      "id": "544266137324617744",
+      "displayName": "Poiser",
+      "callsign": "CT-28332",
+      "platform": "xbox",
+      "xp": 19381,
+      "level": 2
+    },
+    {
+      "id": "1130694345369071688",
+      "displayName": "Yager",
+      "callsign": "CT-23-795",
+      "platform": "xbox",
+      "xp": 19002,
+      "level": 2
+    },
+    {
+      "id": "501240278989013004",
+      "displayName": "Zombieguy",
+      "callsign": "CT-15197",
+      "platform": "xbox",
+      "xp": 18051,
+      "level": 2
+    },
+    {
+      "id": "275022713502826499",
+      "displayName": "Shisno",
+      "callsign": "CT-15714",
+      "platform": "xbox",
+      "xp": 18050,
+      "level": 2
+    },
+    {
+      "id": "217027645555081237",
+      "displayName": "Hexa",
+      "callsign": "CT-31221",
+      "platform": "pc",
+      "xp": 17578,
+      "level": 2
+    },
+    {
+      "id": "644968938207445004",
+      "displayName": "Slay",
+      "callsign": "CT-14296",
+      "platform": "pc",
+      "xp": 15420,
+      "level": 2
+    },
+    {
+      "id": "751714390381690930",
+      "displayName": "Grind",
+      "callsign": "CT-28503",
+      "platform": "ps",
+      "xp": 15102,
+      "level": 2
+    },
+    {
+      "id": "1007048125468397668",
+      "displayName": "Gunner",
+      "callsign": "CT-25-169",
+      "platform": "xbox",
+      "xp": 14500,
+      "level": 1
+    },
+    {
+      "id": "388458391150002176",
+      "displayName": "Feedback",
+      "callsign": "CT-12982",
+      "platform": "xbox",
+      "xp": 14486,
+      "level": 1
+    },
+    {
+      "id": "662477574970146847",
+      "displayName": "Monsoon",
+      "callsign": "CT-25-270",
+      "platform": "xbox",
+      "xp": 13225,
+      "level": 1
+    },
+    {
+      "id": "532320853312929802",
+      "displayName": "Atin",
+      "callsign": "A-72",
+      "platform": "xbox",
+      "xp": 12676,
+      "level": 1
+    },
+    {
+      "id": "534394597942493186",
+      "displayName": "Voss",
+      "callsign": "CT-8838",
+      "platform": "xbox",
+      "xp": 12654,
+      "level": 1
+    },
+    {
+      "id": "328730675303940106",
+      "displayName": "Bayonetta",
+      "callsign": "CT-34475",
+      "platform": "xbox",
+      "xp": 12163,
+      "level": 1
+    },
+    {
+      "id": "1521398804623130675",
+      "displayName": "Crooker",
+      "callsign": "CT-13781",
+      "platform": "xbox",
+      "xp": 11999,
+      "level": 1
+    },
+    {
+      "id": "1281532086649356339",
+      "displayName": "Wishful",
+      "callsign": "CT-25-419",
+      "platform": "xbox",
+      "xp": 11445,
+      "level": 1
+    },
+    {
+      "id": "615085247452807168",
+      "displayName": "Baam",
+      "callsign": "CT-34911",
+      "platform": "xbox",
+      "xp": 11075,
+      "level": 1
+    },
+    {
+      "id": "1132523499114737745",
+      "displayName": "Bumpy",
+      "callsign": "CT-25-333",
+      "platform": "ps",
+      "xp": 11007,
+      "level": 1
+    },
+    {
+      "id": "839548923777384529",
+      "displayName": "Sandy",
+      "callsign": "CT-25-400",
+      "platform": "pc",
+      "xp": 10153,
+      "level": 1
+    },
+    {
+      "id": "395380960029442048",
+      "displayName": "ausfather",
+      "callsign": null,
+      "platform": "xbox",
+      "xp": 10065,
+      "level": 1
+    },
+    {
+      "id": "564481858134605824",
+      "displayName": "Monty",
+      "callsign": "CT-15019",
+      "platform": "xbox",
+      "xp": 10000,
+      "level": 1
+    },
+    {
+      "id": "911743467795918930",
+      "displayName": "energy8015",
+      "callsign": null,
+      "platform": "xbox",
+      "xp": 10000,
+      "level": 1
+    },
+    {
+      "id": "829835776501612596",
+      "displayName": "Contex",
+      "callsign": "ARC-34600",
+      "platform": "ps",
+      "xp": 9632,
+      "level": 1
+    },
+    {
+      "id": "950790697856929832",
+      "displayName": "martinez2727",
+      "callsign": null,
+      "platform": "ps",
+      "xp": 8078,
+      "level": 1
+    },
+    {
+      "id": "708393776590225460",
+      "displayName": "Xiash",
+      "callsign": "CT-15978",
+      "platform": "xbox",
+      "xp": 7726,
+      "level": 1
+    },
+    {
+      "id": "1138809224202305537",
+      "displayName": "Typhoon",
+      "callsign": "CT-23-949",
+      "platform": "xbox",
+      "xp": 7501,
+      "level": 1
+    },
+    {
+      "id": "923361370483859456",
+      "displayName": "Klombus",
+      "callsign": "CT-31054",
+      "platform": "pc",
+      "xp": 7390,
+      "level": 1
+    },
+    {
+      "id": "523913483113332736",
+      "displayName": "Dymphna",
+      "callsign": "CT-11181",
+      "platform": "xbox",
+      "xp": 6909,
+      "level": 1
+    },
+    {
+      "id": "1122926251938693150",
+      "displayName": "Ammar",
+      "callsign": "CT-34905",
+      "platform": "xbox",
+      "xp": 6774,
+      "level": 1
+    },
+    {
+      "id": "714606832902995980",
+      "displayName": "Damn",
+      "callsign": "CT-15470",
+      "platform": "xbox",
+      "xp": 6701,
+      "level": 1
+    },
+    {
+      "id": "892781899733405757",
+      "displayName": "Electro",
+      "callsign": "CT-34988",
+      "platform": "xbox",
+      "xp": 6646,
+      "level": 1
+    },
+    {
+      "id": "647278644993196057",
+      "displayName": "Gaz",
+      "callsign": "CT-34707",
+      "platform": "xbox",
+      "xp": 6561,
+      "level": 1
+    },
+    {
+      "id": "713427104196460664",
+      "displayName": "Soup",
+      "callsign": "CT-31173",
+      "platform": "pc",
+      "xp": 6322,
+      "level": 1
+    },
+    {
+      "id": "464631187898630145",
+      "displayName": "Davien",
+      "callsign": "CT-31992",
+      "platform": "pc",
+      "xp": 6256,
+      "level": 1
+    },
+    {
+      "id": "200309310100602881",
+      "displayName": "evo3717",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 6016,
+      "level": 1
+    },
+    {
+      "id": "535760516006543362",
+      "displayName": "Tukata",
+      "callsign": "CT-22-666",
+      "platform": "xbox",
+      "xp": 5890,
+      "level": 1
+    },
+    {
+      "id": "257670823270154240",
+      "displayName": "pacagat",
+      "callsign": null,
+      "platform": "xbox",
+      "xp": 5745,
+      "level": 1
+    },
+    {
+      "id": "854053658941194292",
+      "displayName": "maddog77",
+      "callsign": null,
+      "platform": "ps",
+      "xp": 5707,
+      "level": 1
+    },
+    {
+      "id": "703244800178257940",
+      "displayName": "Pending",
+      "callsign": "CT-22-420",
+      "platform": "pc",
+      "xp": 5580,
+      "level": 1
+    },
+    {
+      "id": "1493732097297354952",
+      "displayName": "Walker",
+      "callsign": "CT-25-315",
+      "platform": "xbox",
+      "xp": 5553,
+      "level": 1
+    },
+    {
+      "id": "1308408957219377212",
+      "displayName": "Chill",
+      "callsign": "CT-15404",
+      "platform": "xbox",
+      "xp": 5491,
+      "level": 1
+    },
+    {
+      "id": "756975781430689925",
+      "displayName": "Midway",
+      "callsign": "CT-28551",
+      "platform": "xbox",
+      "xp": 5468,
+      "level": 1
+    },
+    {
+      "id": "1043559751621038260",
+      "displayName": "igotalaceythong",
+      "callsign": null,
+      "platform": "ps",
+      "xp": 5374,
+      "level": 1
+    },
+    {
+      "id": "575474238018945035",
+      "displayName": "Tiney",
+      "callsign": "CT-28942",
+      "platform": "xbox",
+      "xp": 5270,
+      "level": 1
+    },
+    {
+      "id": "884883456499265606",
+      "displayName": "Ares",
+      "callsign": "CT-23-945",
+      "platform": "xbox",
+      "xp": 5116,
+      "level": 1
+    },
+    {
+      "id": "415913231576596490",
+      "displayName": "Papery",
+      "callsign": "CT-13985",
+      "platform": "xbox",
+      "xp": 5059,
+      "level": 1
+    },
+    {
+      "id": "1512305097273511992",
+      "displayName": "Ricola",
+      "callsign": "CT-25-247",
+      "platform": "xbox",
+      "xp": 5000,
+      "level": 1
+    },
+    {
+      "id": "1382024223454658713",
+      "displayName": "Sketch",
+      "callsign": "CT-25-243",
+      "platform": "xbox",
+      "xp": 5000,
+      "level": 1
+    },
+    {
+      "id": "935567424831496283",
+      "displayName": "Clasher",
+      "callsign": "CT-22-823",
+      "platform": "xbox",
+      "xp": 5000,
+      "level": 1
+    },
+    {
+      "id": "1015015267023208499",
+      "displayName": "Scooby",
+      "callsign": "CT-22-942",
+      "platform": "xbox",
+      "xp": 5000,
+      "level": 1
+    },
+    {
+      "id": "777347445536718848",
+      "displayName": "Jcobb",
+      "callsign": "CT-25-368",
+      "platform": "xbox",
+      "xp": 5000,
+      "level": 1
+    },
+    {
+      "id": "675646411353882644",
+      "displayName": "Angelshot",
+      "callsign": "CT-22-721",
+      "platform": "xbox",
+      "xp": 5000,
+      "level": 1
+    },
+    {
+      "id": "665615719911915540",
+      "displayName": "Outlaw",
+      "callsign": "CT-25-284",
+      "platform": "xbox",
+      "xp": 5000,
+      "level": 1
+    },
+    {
+      "id": "619964571771207681",
+      "displayName": "Skeet",
+      "callsign": "CT-15246",
+      "platform": "xbox",
+      "xp": 5000,
+      "level": 1
+    },
+    {
+      "id": "413496650431201281",
+      "displayName": "Skymark",
+      "callsign": "CT-13195",
+      "platform": "xbox",
+      "xp": 5000,
+      "level": 1
+    },
+    {
+      "id": "246447920096870401",
+      "displayName": "Tang",
+      "callsign": "CT-23-877",
+      "platform": "xbox",
+      "xp": 5000,
+      "level": 1
+    },
+    {
+      "id": "327169075316785152",
+      "displayName": "Bulkhead",
+      "callsign": "CT-22-857",
+      "platform": "xbox",
+      "xp": 5000,
+      "level": 1
+    },
+    {
+      "id": "678466230654599188",
+      "displayName": "Mixx",
+      "callsign": "CT-15752",
+      "platform": "ps",
+      "xp": 4993,
+      "level": 0
+    },
+    {
+      "id": "760350388712112199",
+      "displayName": "Cacabur",
+      "callsign": "CT-23-825",
+      "platform": "ps",
+      "xp": 4781,
+      "level": 0
+    },
+    {
+      "id": "1247234772904710206",
+      "displayName": "Frosto",
+      "callsign": "CT-34468",
+      "platform": "ps",
+      "xp": 4627,
+      "level": 0
+    },
+    {
+      "id": "1196646716129161297",
+      "displayName": "Hades",
+      "callsign": "CT-25-113",
+      "platform": "ps",
+      "xp": 3968,
+      "level": 0
+    },
+    {
+      "id": "1421073482493591632",
+      "displayName": "Rep",
+      "callsign": "CT-28690",
+      "platform": "pc",
+      "xp": 3948,
+      "level": 0
+    },
+    {
+      "id": "1088391956134121482",
+      "displayName": "Gecko",
+      "callsign": "CT-25-146",
+      "platform": "ps",
+      "xp": 3808,
+      "level": 0
+    },
+    {
+      "id": "626827250204934180",
+      "displayName": "Deceptive",
+      "callsign": "ARC-28481",
+      "platform": "xbox",
+      "xp": 3782,
+      "level": 0
+    },
+    {
+      "id": "739936293231788062",
+      "displayName": "Synthetiq",
+      "callsign": "CT-34214",
+      "platform": "ps",
+      "xp": 3651,
+      "level": 0
+    },
+    {
+      "id": "476520030050451456",
+      "displayName": "Yogmear",
+      "callsign": "CT-12274",
+      "platform": "pc",
+      "xp": 3357,
+      "level": 0
+    },
+    {
+      "id": "564032799720472608",
+      "displayName": "Ziggy",
+      "callsign": "CT-23-918",
+      "platform": "pc",
+      "xp": 3318,
+      "level": 0
+    },
+    {
+      "id": "737024804422418473",
+      "displayName": "Shumpy",
+      "callsign": "CT-34932",
+      "platform": "ps",
+      "xp": 3099,
+      "level": 0
+    },
+    {
+      "id": "810429852976021504",
+      "displayName": "Luntos",
+      "callsign": "CT-34928",
+      "platform": "pc",
+      "xp": 3057,
+      "level": 0
+    },
+    {
+      "id": "492827309049643008",
+      "displayName": "Hondo",
+      "callsign": "CT-34768",
+      "platform": "ps",
+      "xp": 2985,
+      "level": 0
+    },
+    {
+      "id": "392760455002587137",
+      "displayName": "Syock",
+      "callsign": "CT-28599",
+      "platform": "ps",
+      "xp": 2769,
+      "level": 0
+    },
+    {
+      "id": "627825352605171712",
+      "displayName": "Trish",
+      "callsign": "CT-22-730",
+      "platform": "pc",
+      "xp": 2665,
+      "level": 0
+    },
+    {
+      "id": "1213929226944651274",
+      "displayName": "Airborn",
+      "callsign": "CT-34359",
+      "platform": "ps",
+      "xp": 2648,
+      "level": 0
+    },
+    {
+      "id": "712243030676996127",
+      "displayName": "Mafetti",
+      "callsign": "CT-22-881",
+      "platform": "ps",
+      "xp": 2596,
+      "level": 0
+    },
+    {
+      "id": "207038937452118016",
+      "displayName": "Oiler",
+      "callsign": "RC-5-34/808",
+      "platform": "pc",
+      "xp": 2560,
+      "level": 0
+    },
+    {
+      "id": "521797364747599924",
+      "displayName": "Sloth",
+      "callsign": "CT-28051",
+      "platform": "xbox",
+      "xp": 2505,
+      "level": 0
+    },
+    {
+      "id": "739161525859909703",
+      "displayName": "Windu",
+      "callsign": "CT-34612",
+      "platform": "ps",
+      "xp": 2434,
+      "level": 0
+    },
+    {
+      "id": "436619376494641163",
+      "displayName": "Lockejaw",
+      "callsign": "CT-31534",
+      "platform": "pc",
+      "xp": 2415,
+      "level": 0
+    },
+    {
+      "id": "384852441272942592",
+      "displayName": "Mello",
+      "callsign": "CT-6649",
+      "platform": "ps",
+      "xp": 2377,
+      "level": 0
+    },
+    {
+      "id": "767799949281853480",
+      "displayName": "Kris",
+      "callsign": "CT-23-923",
+      "platform": "ps",
+      "xp": 2314,
+      "level": 0
+    },
+    {
+      "id": "484766198504882196",
+      "displayName": "Dark",
+      "callsign": "CT-4936",
+      "platform": "pc",
+      "xp": 2308,
+      "level": 0
+    },
+    {
+      "id": "1077742723668389898",
+      "displayName": "Narox",
+      "callsign": "N-16",
+      "platform": "ps",
+      "xp": 2279,
+      "level": 0
+    },
+    {
+      "id": "1208851238062653440",
+      "displayName": "Hex",
+      "callsign": "CT-31902",
+      "platform": "ps",
+      "xp": 2220,
+      "level": 0
+    },
+    {
+      "id": "781348656469114890",
+      "displayName": "Mav",
+      "callsign": "CT-25-422",
+      "platform": "ps",
+      "xp": 2135,
+      "level": 0
+    },
+    {
+      "id": "779841165222608897",
+      "displayName": "manintan",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 2104,
+      "level": 0
+    },
+    {
+      "id": "1494165718386872341",
+      "displayName": "mr._trot_",
+      "callsign": null,
+      "platform": "ps",
+      "xp": 2073,
+      "level": 0
+    },
+    {
+      "id": "849009965905608734",
+      "displayName": "Gamma",
+      "callsign": "CT-23-830",
+      "platform": "ps",
+      "xp": 2028,
+      "level": 0
+    },
+    {
+      "id": "327095828621557771",
+      "displayName": "Keylow",
+      "callsign": "CT-31098",
+      "platform": "pc",
+      "xp": 1963,
+      "level": 0
+    },
+    {
+      "id": "714580798841552950",
+      "displayName": "Radius",
+      "callsign": "CT-31833",
+      "platform": "ps",
+      "xp": 1915,
+      "level": 0
+    },
+    {
+      "id": "1119156036838891561",
+      "displayName": "Codes",
+      "callsign": "CT-34379",
+      "platform": "pc",
+      "xp": 1870,
+      "level": 0
+    },
+    {
+      "id": "450322136075075584",
+      "displayName": "Mako",
+      "callsign": "ARC-4804",
+      "platform": "xbox",
+      "xp": 1830,
+      "level": 0
+    },
+    {
+      "id": "1206204279556145184",
+      "displayName": "lgnmvolcano",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 1792,
+      "level": 0
+    },
+    {
+      "id": "272475911121797122",
+      "displayName": "Iota",
+      "callsign": "CT-15538",
+      "platform": "pc",
+      "xp": 1776,
+      "level": 0
+    },
+    {
+      "id": "659156221416177700",
+      "displayName": "Karpfen",
+      "callsign": "CT-23-879",
+      "platform": "pc",
+      "xp": 1739,
+      "level": 0
+    },
+    {
+      "id": "995356817242726411",
+      "displayName": "Reptile",
+      "callsign": "CT-25-403",
+      "platform": "ps",
+      "xp": 1718,
+      "level": 0
+    },
+    {
+      "id": "699609704116125758",
+      "displayName": "Castro",
+      "callsign": "CT-31670",
+      "platform": "pc",
+      "xp": 1676,
+      "level": 0
+    },
+    {
+      "id": "1165024216123457686",
+      "displayName": "Hassett",
+      "callsign": "ARC-14874",
+      "platform": "ps",
+      "xp": 1645,
+      "level": 0
+    },
+    {
+      "id": "1340154931159502891",
+      "displayName": "Velocity",
+      "callsign": "CT-25-418",
+      "platform": "pc",
+      "xp": 1632,
+      "level": 0
+    },
+    {
+      "id": "463316963347791892",
+      "displayName": "Bilo",
+      "callsign": "CT-15306",
+      "platform": "pc",
+      "xp": 1514,
+      "level": 0
+    },
+    {
+      "id": "436477217741209611",
+      "displayName": "Bazza",
+      "callsign": "CT-22-699",
+      "platform": "xbox",
+      "xp": 1481,
+      "level": 0
+    },
+    {
+      "id": "617236225224605706",
+      "displayName": "Equinox",
+      "callsign": "CT-34683",
+      "platform": "pc",
+      "xp": 1469,
+      "level": 0
+    },
+    {
+      "id": "1041780204076531724",
+      "displayName": "i.drivemax",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 1423,
+      "level": 0
+    },
+    {
+      "id": "340218441099247616",
+      "displayName": "Sight",
+      "callsign": "CT-14930",
+      "platform": "pc",
+      "xp": 1380,
+      "level": 0
+    },
+    {
+      "id": "863543154053873684",
+      "displayName": "Vortex",
+      "callsign": "CT-25-406",
+      "platform": "pc",
+      "xp": 1313,
+      "level": 0
+    },
+    {
+      "id": "364188255383715842",
+      "displayName": "Barrage",
+      "callsign": "N-1",
+      "platform": "pc",
+      "xp": 1271,
+      "level": 0
+    },
+    {
+      "id": "713433494201565234",
+      "displayName": "lukegzero",
+      "callsign": null,
+      "platform": "ps",
+      "xp": 1260,
+      "level": 0
+    },
+    {
+      "id": "336129194465558529",
+      "displayName": "Troy",
+      "callsign": "CT-22-534",
+      "platform": "pc",
+      "xp": 1251,
+      "level": 0
+    },
+    {
+      "id": "128930310040715264",
+      "displayName": "tuut11",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 1236,
+      "level": 0
+    },
+    {
+      "id": "1082057438938791986",
+      "displayName": "Quacked",
+      "callsign": "CT-25-413",
+      "platform": "pc",
+      "xp": 1218,
+      "level": 0
+    },
+    {
+      "id": "541280239909732383",
+      "displayName": "Blekeer",
+      "callsign": "CT-15869",
+      "platform": "ps",
+      "xp": 1207,
+      "level": 0
+    },
+    {
+      "id": "313372728822464512",
+      "displayName": "Azurite",
+      "callsign": "CT-28082",
+      "platform": "pc",
+      "xp": 1201,
+      "level": 0
+    },
+    {
+      "id": "527069498197540884",
+      "displayName": "Raibir",
+      "callsign": "CT-15529",
+      "platform": "ps",
+      "xp": 1141,
+      "level": 0
+    },
+    {
+      "id": "715975378300305439",
+      "displayName": "Heist",
+      "callsign": "ARC-22-604",
+      "platform": "ps",
+      "xp": 1125,
+      "level": 0
+    },
+    {
+      "id": "757384455626424401",
+      "displayName": "douche_baggins.",
+      "callsign": null,
+      "platform": "ps",
+      "xp": 1113,
+      "level": 0
+    },
+    {
+      "id": "1017938116562137090",
+      "displayName": "Jonas",
+      "callsign": "CT-23-813",
+      "platform": "pc",
+      "xp": 1088,
+      "level": 0
+    },
+    {
+      "id": "734381850339835974",
+      "displayName": "Gunginir",
+      "callsign": "CT-34616",
+      "platform": "ps",
+      "xp": 1088,
+      "level": 0
+    },
+    {
+      "id": "719015569126457385",
+      "displayName": "Krei",
+      "callsign": "CT-31751",
+      "platform": "pc",
+      "xp": 1087,
+      "level": 0
+    },
+    {
+      "id": "943631625944707172",
+      "displayName": "Fefboo",
+      "callsign": "ARC-31272",
+      "platform": "ps",
+      "xp": 1073,
+      "level": 0
+    },
+    {
+      "id": "459358407502331925",
+      "displayName": "Antidote",
+      "callsign": "CT-6928",
+      "platform": "pc",
+      "xp": 1005,
+      "level": 0
+    },
+    {
+      "id": "216823192570953729",
+      "displayName": "Igneel",
+      "callsign": "CT-15949",
+      "platform": "pc",
+      "xp": 984,
+      "level": 0
+    },
+    {
+      "id": "1218645711739031712",
+      "displayName": "Tickle",
+      "callsign": "CT-6781",
+      "platform": "pc",
+      "xp": 936,
+      "level": 0
+    },
+    {
+      "id": "1330682046988681237",
+      "displayName": "Renegade",
+      "callsign": "CT-25-238",
+      "platform": "ps",
+      "xp": 913,
+      "level": 0
+    },
+    {
+      "id": "765222902764666881",
+      "displayName": "Hati",
+      "callsign": "CT-22-743",
+      "platform": "ps",
+      "xp": 888,
+      "level": 0
+    },
+    {
+      "id": "506167067007909889",
+      "displayName": "Alibi",
+      "callsign": "CT-5270",
+      "platform": "pc",
+      "xp": 882,
+      "level": 0
+    },
+    {
+      "id": "618502892449693727",
+      "displayName": "Jaws",
+      "callsign": "CT-12501",
+      "platform": "xbox",
+      "xp": 875,
+      "level": 0
+    },
+    {
+      "id": "392042678801530881",
+      "displayName": "Spore",
+      "callsign": "CT-22-659",
+      "platform": "pc",
+      "xp": 872,
+      "level": 0
+    },
+    {
+      "id": "1278138496636158036",
+      "displayName": "Havox",
+      "callsign": "N-17",
+      "platform": "pc",
+      "xp": 868,
+      "level": 0
+    },
+    {
+      "id": "661560250704461865",
+      "displayName": "Uniqueze",
+      "callsign": "ARC-15474",
+      "platform": "ps",
+      "xp": 829,
+      "level": 0
+    },
+    {
+      "id": "899726303916359680",
+      "displayName": "Skulk",
+      "callsign": "CT-23-744",
+      "platform": "xbox",
+      "xp": 799,
+      "level": 0
+    },
+    {
+      "id": "1052422673944281099",
+      "displayName": "amoss6178",
+      "callsign": null,
+      "platform": "ps",
+      "xp": 782,
+      "level": 0
+    },
+    {
+      "id": "345553514719870977",
+      "displayName": "Tank",
+      "callsign": "CT-5327",
+      "platform": "xbox",
+      "xp": 779,
+      "level": 0
+    },
+    {
+      "id": "378206037301264394",
+      "displayName": "Piktoo",
+      "callsign": "CT-28753",
+      "platform": "pc",
+      "xp": 777,
+      "level": 0
+    },
+    {
+      "id": "493951846403145755",
+      "displayName": "Gonk",
+      "callsign": "CT-11952",
+      "platform": "pc",
+      "xp": 776,
+      "level": 0
+    },
+    {
+      "id": "408372999448690688",
+      "displayName": "Katana",
+      "callsign": "ARC-14912",
+      "platform": "xbox",
+      "xp": 758,
+      "level": 0
+    },
+    {
+      "id": "146367876939513856",
+      "displayName": "Kiyin",
+      "callsign": "CT-28214",
+      "platform": "pc",
+      "xp": 750,
+      "level": 0
+    },
+    {
+      "id": "398883283263553545",
+      "displayName": "Basket",
+      "callsign": "CT-9282",
+      "platform": "ps",
+      "xp": 732,
+      "level": 0
+    },
+    {
+      "id": "192998657694367744",
+      "displayName": "Pvp",
+      "callsign": "N-14",
+      "platform": "pc",
+      "xp": 721,
+      "level": 0
+    },
+    {
+      "id": "1188791446405398600",
+      "displayName": "Zote",
+      "callsign": "CT-23-956",
+      "platform": "ps",
+      "xp": 713,
+      "level": 0
+    },
+    {
+      "id": "650166123873959936",
+      "displayName": "Pryor",
+      "callsign": "CT-12441",
+      "platform": "ps",
+      "xp": 688,
+      "level": 0
+    },
+    {
+      "id": "238860328350384128",
+      "displayName": "Shatterstorm",
+      "callsign": "CT-9081",
+      "platform": "pc",
+      "xp": 669,
+      "level": 0
+    },
+    {
+      "id": "361238168047190018",
+      "displayName": "Dug",
+      "callsign": "CT-15765",
+      "platform": "pc",
+      "xp": 645,
+      "level": 0
+    },
+    {
+      "id": "780852847944269865",
+      "displayName": "_kendi_",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 645,
+      "level": 0
+    },
+    {
+      "id": "287805424583835649",
+      "displayName": "Xcel",
+      "callsign": "N-15",
+      "platform": "xbox",
+      "xp": 642,
+      "level": 0
+    },
+    {
+      "id": "522898619548827688",
+      "displayName": "Colday",
+      "callsign": "CT-4609",
+      "platform": "ps",
+      "xp": 635,
+      "level": 0
+    },
+    {
+      "id": "299879761604509698",
+      "displayName": "Wreck",
+      "callsign": "CT-4946",
+      "platform": "pc",
+      "xp": 620,
+      "level": 0
+    },
+    {
+      "id": "539150298476707842",
+      "displayName": "Argonaut",
+      "callsign": "CT-23-981",
+      "platform": "pc",
+      "xp": 609,
+      "level": 0
+    },
+    {
+      "id": "504996210352979978",
+      "displayName": "Blur",
+      "callsign": "CT-8986",
+      "platform": "ps",
+      "xp": 586,
+      "level": 0
+    },
+    {
+      "id": "483047954635292682",
+      "displayName": "Tankbait",
+      "callsign": "CT-22-976",
+      "platform": "pc",
+      "xp": 582,
+      "level": 0
+    },
+    {
+      "id": "753508902192152696",
+      "displayName": "medievalmanliham",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 578,
+      "level": 0
+    },
+    {
+      "id": "1181727222185349177",
+      "displayName": "Aphar",
+      "callsign": "CT-23-965",
+      "platform": "pc",
+      "xp": 560,
+      "level": 0
+    },
+    {
+      "id": "730191948899418153",
+      "displayName": "Othala",
+      "callsign": "CT-34992",
+      "platform": "pc",
+      "xp": 552,
+      "level": 0
+    },
+    {
+      "id": "864684717185564672",
+      "displayName": "Quinta",
+      "callsign": "ARC-22-764",
+      "platform": "pc",
+      "xp": 549,
+      "level": 0
+    },
+    {
+      "id": "930494049398423623",
+      "displayName": "Butcher",
+      "callsign": "CT-34259",
+      "platform": "ps",
+      "xp": 546,
+      "level": 0
+    },
+    {
+      "id": "427447889627971586",
+      "displayName": "Ratchy",
+      "callsign": "CT-34167",
+      "platform": "pc",
+      "xp": 531,
+      "level": 0
+    },
+    {
+      "id": "569629772867698703",
+      "displayName": "Tys",
+      "callsign": "A-38",
+      "platform": "xbox",
+      "xp": 525,
+      "level": 0
+    },
+    {
+      "id": "323201521632149515",
+      "displayName": "Mapex",
+      "callsign": "CT-34164",
+      "platform": "pc",
+      "xp": 523,
+      "level": 0
+    },
+    {
+      "id": "1312745949482713108",
+      "displayName": "Deadscope",
+      "callsign": "CT-11119",
+      "platform": "pc",
+      "xp": 520,
+      "level": 0
+    },
+    {
+      "id": "334016945177493504",
+      "displayName": "Dia",
+      "callsign": "CT-9520",
+      "platform": "ps",
+      "xp": 518,
+      "level": 0
+    },
+    {
+      "id": "341738217894182932",
+      "displayName": "Nightfall",
+      "callsign": "CT-23-940",
+      "platform": "ps",
+      "xp": 513,
+      "level": 0
+    },
+    {
+      "id": "876914459103350815",
+      "displayName": "Wedge",
+      "callsign": "N-9",
+      "platform": "xbox",
+      "xp": 493,
+      "level": 0
+    },
+    {
+      "id": "573255475055820810",
+      "displayName": "Detonator",
+      "callsign": "CT-14407",
+      "platform": "ps",
+      "xp": 483,
+      "level": 0
+    },
+    {
+      "id": "257370372133879820",
+      "displayName": "Dium",
+      "callsign": "CT-31356",
+      "platform": "pc",
+      "xp": 482,
+      "level": 0
+    },
+    {
+      "id": "1156796538912264202",
+      "displayName": "Jerry",
+      "callsign": "CT-12723",
+      "platform": "pc",
+      "xp": 478,
+      "level": 0
+    },
+    {
+      "id": "1380359461021024267",
+      "displayName": "North",
+      "callsign": "CT-25-208",
+      "platform": "xbox",
+      "xp": 459,
+      "level": 0
+    },
+    {
+      "id": "527180143488270366",
+      "displayName": "Stead",
+      "callsign": "ARC-34601",
+      "platform": "xbox",
+      "xp": 454,
+      "level": 0
+    },
+    {
+      "id": "393167241207873568",
+      "displayName": "Crainterr",
+      "callsign": "CT-25-156",
+      "platform": "ps",
+      "xp": 454,
+      "level": 0
+    },
+    {
+      "id": "257985797700059136",
+      "displayName": "Moon",
+      "callsign": "CT-22-573",
+      "platform": "pc",
+      "xp": 435,
+      "level": 0
+    },
+    {
+      "id": "849082088665251870",
+      "displayName": "Gree",
+      "callsign": "CT-5374",
+      "platform": "xbox",
+      "xp": 427,
+      "level": 0
+    },
+    {
+      "id": "243435236006952971",
+      "displayName": "Denji",
+      "callsign": "CT-22-938",
+      "platform": "pc",
+      "xp": 427,
+      "level": 0
+    },
+    {
+      "id": "324401047088922625",
+      "displayName": "Kraitbait",
+      "callsign": "CT-28885",
+      "platform": "ps",
+      "xp": 401,
+      "level": 0
+    },
+    {
+      "id": "548283612978610193",
+      "displayName": "Stryfe",
+      "callsign": "CT-34527",
+      "platform": "pc",
+      "xp": 388,
+      "level": 0
+    },
+    {
+      "id": "435630159060664321",
+      "displayName": "acadac",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 381,
+      "level": 0
+    },
+    {
+      "id": "784443325570088967",
+      "displayName": "Callout",
+      "callsign": "CT-34435",
+      "platform": "ps",
+      "xp": 377,
+      "level": 0
+    },
+    {
+      "id": "1102661059166355517",
+      "displayName": "Striker",
+      "callsign": "CT-25-308",
+      "platform": "pc",
+      "xp": 361,
+      "level": 0
+    },
+    {
+      "id": "246135074695806977",
+      "displayName": "Bris",
+      "callsign": "CT-5202",
+      "platform": "pc",
+      "xp": 355,
+      "level": 0
+    },
+    {
+      "id": "848524549901516821",
+      "displayName": "Loner",
+      "callsign": "CT-15544",
+      "platform": "pc",
+      "xp": 333,
+      "level": 0
+    },
+    {
+      "id": "431471644477751307",
+      "displayName": "Unusual",
+      "callsign": "CT-28487",
+      "platform": "ps",
+      "xp": 323,
+      "level": 0
+    },
+    {
+      "id": "1496779867742670869",
+      "displayName": "Draven",
+      "callsign": "CT-34071",
+      "platform": "pc",
+      "xp": 323,
+      "level": 0
+    },
+    {
+      "id": "343146125819117568",
+      "displayName": "Possibly",
+      "callsign": "N-4",
+      "platform": "pc",
+      "xp": 319,
+      "level": 0
+    },
+    {
+      "id": "817874920947843123",
+      "displayName": "Nikolai",
+      "callsign": "CT-28011",
+      "platform": "pc",
+      "xp": 319,
+      "level": 0
+    },
+    {
+      "id": "560170890248192022",
+      "displayName": "Nameless",
+      "callsign": "CT-25-393",
+      "platform": "pc",
+      "xp": 311,
+      "level": 0
+    },
+    {
+      "id": "1169012239823548458",
+      "displayName": "Shockwave",
+      "callsign": "CT-23-996",
+      "platform": "xbox",
+      "xp": 309,
+      "level": 0
+    },
+    {
+      "id": "1516840614115938490",
+      "displayName": "Nax",
+      "callsign": "CT-25-301",
+      "platform": "pc",
+      "xp": 299,
+      "level": 0
+    },
+    {
+      "id": "487796647032651777",
+      "displayName": "Mew",
+      "callsign": "CT-34655",
+      "platform": "pc",
+      "xp": 298,
+      "level": 0
+    },
+    {
+      "id": "1444050067391643750",
+      "displayName": "Goldman",
+      "callsign": "CT-22-319",
+      "platform": "ps",
+      "xp": 294,
+      "level": 0
+    },
+    {
+      "id": "608366183401390080",
+      "displayName": "Gonji",
+      "callsign": "CT-28085",
+      "platform": "pc",
+      "xp": 287,
+      "level": 0
+    },
+    {
+      "id": "799347647101010001",
+      "displayName": "EJM",
+      "callsign": "CT-28313",
+      "platform": "xbox",
+      "xp": 286,
+      "level": 0
+    },
+    {
+      "id": "229800772953571328",
+      "displayName": "Kron",
+      "callsign": "CT-31522",
+      "platform": "ps",
+      "xp": 279,
+      "level": 0
+    },
+    {
+      "id": "747647958941565029",
+      "displayName": "Jedidiah",
+      "callsign": "CT-22-381",
+      "platform": "pc",
+      "xp": 277,
+      "level": 0
+    },
+    {
+      "id": "566301105160454156",
+      "displayName": "Jumpy",
+      "callsign": "CT-25-221",
+      "platform": "ps",
+      "xp": 268,
+      "level": 0
+    },
+    {
+      "id": "1494157744427503678",
+      "displayName": "evo_bot37",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 241,
+      "level": 0
+    },
+    {
+      "id": "1227515672104271912",
+      "displayName": "Imrahil",
+      "callsign": "CT-31973",
+      "platform": "pc",
+      "xp": 235,
+      "level": 0
+    },
+    {
+      "id": "719292568818548767",
+      "displayName": "Pro",
+      "callsign": "CT-31981",
+      "platform": "pc",
+      "xp": 235,
+      "level": 0
+    },
+    {
+      "id": "708117252297195530",
+      "displayName": "Uchiha",
+      "callsign": "CT-15535",
+      "platform": "ps",
+      "xp": 232,
+      "level": 0
+    },
+    {
+      "id": "765254432295747636",
+      "displayName": "Traver",
+      "callsign": "CT-34381",
+      "platform": "xbox",
+      "xp": 209,
+      "level": 0
+    },
+    {
+      "id": "560906330714537995",
+      "displayName": "Chiller",
+      "callsign": "CT-5649",
+      "platform": "ps",
+      "xp": 199,
+      "level": 0
+    },
+    {
+      "id": "1083840019938160672",
+      "displayName": "Vhale",
+      "callsign": "CT-25-246",
+      "platform": "pc",
+      "xp": 198,
+      "level": 0
+    },
+    {
+      "id": "731823221015314464",
+      "displayName": "Luckyshot",
+      "callsign": "CT-28445",
+      "platform": "ps",
+      "xp": 195,
+      "level": 0
+    },
+    {
+      "id": "596689089751941120",
+      "displayName": "Downfall",
+      "callsign": "CT-14332",
+      "platform": "ps",
+      "xp": 192,
+      "level": 0
+    },
+    {
+      "id": "467337472179961866",
+      "displayName": "Seawolf",
+      "callsign": "CT-31402",
+      "platform": "pc",
+      "xp": 189,
+      "level": 0
+    },
+    {
+      "id": "596027350286598154",
+      "displayName": "Klinch",
+      "callsign": "ARC-28914",
+      "platform": "ps",
+      "xp": 188,
+      "level": 0
+    },
+    {
+      "id": "1178165871831695402",
+      "displayName": "5ajexthefallenangel3",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 187,
+      "level": 0
+    },
+    {
+      "id": "802558745901137992",
+      "displayName": "Sandmann",
+      "callsign": "CT-22-749",
+      "platform": "ps",
+      "xp": 180,
+      "level": 0
+    },
+    {
+      "id": "1006423011785723924",
+      "displayName": "Ludi",
+      "callsign": "CT-23-963",
+      "platform": "pc",
+      "xp": 179,
+      "level": 0
+    },
+    {
+      "id": "1460480763098169436",
+      "displayName": "Frontier",
+      "callsign": "CT-22-363",
+      "platform": "ps",
+      "xp": 178,
+      "level": 0
+    },
+    {
+      "id": "663849197052624907",
+      "displayName": "Manticaur",
+      "callsign": "CT-28424",
+      "platform": "pc",
+      "xp": 177,
+      "level": 0
+    },
+    {
+      "id": "305142665786163201",
+      "displayName": "Azha",
+      "callsign": "CT-4495",
+      "platform": "pc",
+      "xp": 176,
+      "level": 0
+    },
+    {
+      "id": "1511909794410397697",
+      "displayName": "khuru_900",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 174,
+      "level": 0
+    },
+    {
+      "id": "686982582365192271",
+      "displayName": "Electrik",
+      "callsign": "CT-9197",
+      "platform": "pc",
+      "xp": 173,
+      "level": 0
+    },
+    {
+      "id": "1244096808851079218",
+      "displayName": "Amoux",
+      "callsign": "CT-23-894",
+      "platform": "xbox",
+      "xp": 172,
+      "level": 0
+    },
+    {
+      "id": "300499418199752704",
+      "displayName": "Priden",
+      "callsign": "CT-31406",
+      "platform": "pc",
+      "xp": 172,
+      "level": 0
+    },
+    {
+      "id": "175124164871585792",
+      "displayName": "Choco",
+      "callsign": "CT-25-374",
+      "platform": "pc",
+      "xp": 171,
+      "level": 0
+    },
+    {
+      "id": "799641683670990868",
+      "displayName": "newgamecat",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 170,
+      "level": 0
+    },
+    {
+      "id": "955066225820565554",
+      "displayName": "Kodokun",
+      "callsign": "CT-22-371",
+      "platform": "pc",
+      "xp": 159,
+      "level": 0
+    },
+    {
+      "id": "620299605065728010",
+      "displayName": "Clax",
+      "callsign": "CT-12209",
+      "platform": "ps",
+      "xp": 154,
+      "level": 0
+    },
+    {
+      "id": "1369024344562339931",
+      "displayName": "Khorpus",
+      "callsign": "CT-25-417",
+      "platform": "ps",
+      "xp": 148,
+      "level": 0
+    },
+    {
+      "id": "1009511420263678043",
+      "displayName": "gardianphinexe",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 146,
+      "level": 0
+    },
+    {
+      "id": "574578624766803969",
+      "displayName": "Pin",
+      "callsign": "CT-28169",
+      "platform": "pc",
+      "xp": 145,
+      "level": 0
+    },
+    {
+      "id": "1338935833171853353",
+      "displayName": "amara02314",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 137,
+      "level": 0
+    },
+    {
+      "id": "308660002422521856",
+      "displayName": "Skorzey",
+      "callsign": "A-89",
+      "platform": "xbox",
+      "xp": 132,
+      "level": 0
+    },
+    {
+      "id": "691340354573828106",
+      "displayName": "Ike",
+      "callsign": "CT-25-197",
+      "platform": "pc",
+      "xp": 130,
+      "level": 0
+    },
+    {
+      "id": "562788357889982468",
+      "displayName": "Eerie",
+      "callsign": "CT-34752",
+      "platform": "pc",
+      "xp": 122,
+      "level": 0
+    },
+    {
+      "id": "703298947128492115",
+      "displayName": "Yippie",
+      "callsign": "CT-25-136",
+      "platform": "ps",
+      "xp": 121,
+      "level": 0
+    },
+    {
+      "id": "772447072347619348",
+      "displayName": "Redreb",
+      "callsign": "CT-28691",
+      "platform": "ps",
+      "xp": 118,
+      "level": 0
+    },
+    {
+      "id": "546715258136428547",
+      "displayName": "Duality",
+      "callsign": "CT-14685",
+      "platform": "pc",
+      "xp": 112,
+      "level": 0
+    },
+    {
+      "id": "150350122050387968",
+      "displayName": "Glowwyrm",
+      "callsign": "CT-14664",
+      "platform": "pc",
+      "xp": 109,
+      "level": 0
+    },
+    {
+      "id": "606566693057069101",
+      "displayName": "Kieboom",
+      "callsign": "CT-15124",
+      "platform": "ps",
+      "xp": 107,
+      "level": 0
+    },
+    {
+      "id": "290671687798751232",
+      "displayName": "Jerome",
+      "callsign": "CT-11762",
+      "platform": "pc",
+      "xp": 106,
+      "level": 0
+    },
+    {
+      "id": "788455455995068428",
+      "displayName": "Liveshot",
+      "callsign": "CT-28839",
+      "platform": "pc",
+      "xp": 101,
+      "level": 0
+    },
+    {
+      "id": "491706442936614937",
+      "displayName": "Loin",
+      "callsign": "CT-12050",
+      "platform": "ps",
+      "xp": 101,
+      "level": 0
+    },
+    {
+      "id": "466378188621217793",
+      "displayName": "Spectre",
+      "callsign": "CT-5124",
+      "platform": "pc",
+      "xp": 97,
+      "level": 0
+    },
+    {
+      "id": "284769781712945152",
+      "displayName": "Powin",
+      "callsign": "ARC-28585",
+      "platform": "pc",
+      "xp": 96,
+      "level": 0
+    },
+    {
+      "id": "297450190384660487",
+      "displayName": "Chrom",
+      "callsign": "CT-28246",
+      "platform": "pc",
+      "xp": 94,
+      "level": 0
+    },
+    {
+      "id": "833332246156804106",
+      "displayName": "Snips",
+      "callsign": "CT-22-690",
+      "platform": "xbox",
+      "xp": 91,
+      "level": 0
+    },
+    {
+      "id": "697937661314334762",
+      "displayName": "Cara",
+      "callsign": "CT-14976",
+      "platform": "xbox",
+      "xp": 91,
+      "level": 0
+    },
+    {
+      "id": "733069895050461235",
+      "displayName": "Gum",
+      "callsign": "CT-31207",
+      "platform": "pc",
+      "xp": 91,
+      "level": 0
+    },
+    {
+      "id": "899039167248486480",
+      "displayName": "Hardline",
+      "callsign": "CT-23-976",
+      "platform": "pc",
+      "xp": 90,
+      "level": 0
+    },
+    {
+      "id": "597469803359502383",
+      "displayName": "Sage",
+      "callsign": "CT-22-773",
+      "platform": "pc",
+      "xp": 90,
+      "level": 0
+    },
+    {
+      "id": "496422549924610059",
+      "displayName": "viper150_",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 84,
+      "level": 0
+    },
+    {
+      "id": "198507508900298752",
+      "displayName": "datti",
+      "callsign": null,
+      "platform": "pc",
+      "xp": 79,
+      "level": 0
+    },
+    {
+      "id": "726821563017592892",
+      "displayName": "Spikey",
+      "callsign": "ARC-23-812",
+      "platform": "pc",
+      "xp": 73,
+      "level": 0
+    },
+    {
+      "id": "297744394235281408",
+      "displayName": "Leo",
+      "callsign": "CT-5660",
+      "platform": "pc",
+      "xp": 56,
+      "level": 0
+    },
+    {
+      "id": "372977033963372544",
+      "displayName": "Far",
+      "callsign": "CT-13874",
+      "platform": "pc",
+      "xp": 53,
+      "level": 0
+    },
+    {
+      "id": "732711143810007132",
+      "displayName": "Arroyo",
+      "callsign": "CT-31503",
+      "platform": "pc",
+      "xp": 46,
+      "level": 0
+    },
+    {
+      "id": "693263073758412843",
+      "displayName": "Exorcist",
+      "callsign": "CT-34463",
+      "platform": "ps",
+      "xp": 43,
+      "level": 0
+    },
+    {
+      "id": "541659983834644494",
+      "displayName": "Hybrid",
+      "callsign": "CT-23-693",
+      "platform": "ps",
+      "xp": 39,
+      "level": 0
+    },
+    {
+      "id": "955225170937806950",
+      "displayName": "Ray",
+      "callsign": "CT-7804",
+      "platform": "pc",
+      "xp": 30,
+      "level": 0
+    },
+    {
+      "id": "880494429159452682",
+      "displayName": "Snipz",
+      "callsign": "CT-34931",
+      "platform": "ps",
+      "xp": 22,
+      "level": 0
+    },
+    {
+      "id": "504068407033856003",
+      "displayName": "Rike",
+      "callsign": "CT-15066",
+      "platform": "pc",
+      "xp": 21,
+      "level": 0
+    },
+    {
+      "id": "339582731950227456",
+      "displayName": "Royal",
+      "callsign": "RC-3-6849",
+      "platform": "xbox",
+      "xp": 19,
+      "level": 0
+    },
+    {
+      "id": "208038409095086081",
+      "displayName": "Ghoasty",
+      "callsign": "ARC-14687",
+      "platform": "pc",
+      "xp": 17,
+      "level": 0
+    },
+    {
+      "id": "619299910180929548",
+      "displayName": "Dalen",
+      "callsign": "ARC-14695",
+      "platform": "pc",
+      "xp": 14,
+      "level": 0
+    },
+    {
+      "id": "472122954193567755",
+      "displayName": "Muck",
+      "callsign": "CT-31951",
+      "platform": "pc",
+      "xp": 13,
+      "level": 0
+    },
+    {
+      "id": "1511836907712155733",
+      "displayName": "Daya",
+      "callsign": "CT-25-436",
+      "platform": "pc",
+      "xp": 0,
+      "level": 0
+    },
+    {
+      "id": "1496720426443735080",
+      "displayName": "Groovy",
+      "callsign": "CT-25-396",
+      "platform": "ps",
+      "xp": 0,
+      "level": 0
+    },
+    {
+      "id": "1491963075186921604",
+      "displayName": "Sam",
+      "callsign": "CT-25-388",
+      "platform": "xbox",
+      "xp": 0,
+      "level": 0
+    },
+    {
+      "id": "1491903709381267477",
+      "displayName": "Underbite",
+      "callsign": "CT-23-824",
+      "platform": "xbox",
+      "xp": 0,
+      "level": 0
     }
+
   ]
 }

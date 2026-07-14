@@ -50,6 +50,20 @@ function getPlatformLabel(platform: Player['platform']) {
   return 'Unassigned'
 }
 
+function getPodiumRowClass(place: number) {
+  if (place === 1) return 'podium-row-1'
+  if (place === 2) return 'podium-row-2'
+  if (place === 3) return 'podium-row-3'
+  return ''
+}
+
+function getPodiumPlaceClass(place: number) {
+  if (place === 1) return 'podium-place-1'
+  if (place === 2) return 'podium-place-2'
+  if (place === 3) return 'podium-place-3'
+  return ''
+}
+
 export function LeaderboardTable({ players, memberSearch, platformFilter }: LeaderboardTableProps) {
   const pageSize = 100
   const normalizedSearch = memberSearch.trim().toLowerCase()
@@ -175,6 +189,22 @@ export function LeaderboardTable({ players, memberSearch, platformFilter }: Lead
             {selectedConsoleRank ? `#${selectedConsoleRank.toLocaleString()}` : '—'}
           </p>
         </div>
+        <div className="col-span-2 flex items-center gap-2 bg-[#171b24] p-3.5">
+          <p className="text-xs font-black uppercase text-[var(--color-muted-foreground)]">
+            Platform
+          </p>
+          <p
+            className={cn(
+              'text-sm font-black',
+              selectedPlayer.platform === 'pc' && 'text-red-400',
+              selectedPlayer.platform === 'ps' && 'text-blue-400',
+              selectedPlayer.platform === 'xbox' && 'text-green-400',
+              !selectedPlayer.platform && 'text-white',
+            )}
+          >
+            {getPlatformLabel(selectedPlayer.platform)}
+          </p>
+        </div>
       </div>
 
       <div className="space-y-3 p-4">
@@ -194,28 +224,12 @@ export function LeaderboardTable({ players, memberSearch, platformFilter }: Lead
           
         </p>
 
-        <div className="mt-5 space-y-2">
-          <div className="flex items-center justify-between rounded-md bg-[#242936] px-3 py-3">
-            <span className="text-sm font-bold text-[var(--color-muted-foreground)]">Platform</span>
-            <span
-              className={cn(
-                'font-black',
-                selectedPlayer.platform === 'pc' && 'text-red-400',
-                selectedPlayer.platform === 'ps' && 'text-blue-400',
-                selectedPlayer.platform === 'xbox' && 'text-green-400',
-                !selectedPlayer.platform && 'text-white',
-              )}
-            >
-              {getPlatformLabel(selectedPlayer.platform)}
-            </span>
-          </div>
-        </div>
       </div>
     </>
   ) : null
 
   return (
-    <div className="grid items-start gap-5 xl:grid-cols-[minmax(0,1fr)_320px]">
+    <div className="grid items-start gap-5 xl:grid-cols-[minmax(0,1fr)_280px]">
       <section className="overflow-hidden rounded-xl border border-white/8 bg-[#121720]/95 shadow-2xl shadow-black/25">
         <div className="divide-y divide-white/[0.06] md:hidden">
           {visibleRows.length === 0 ? (
@@ -232,12 +246,13 @@ export function LeaderboardTable({ players, memberSearch, platformFilter }: Lead
                 onClick={() => selectPlayer(player.id)}
                 className={cn(
                   'grid w-full grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-white/[0.04]',
+                  getPodiumRowClass(place),
                   selected && 'bg-white/[0.055] shadow-[inset_3px_0_0_var(--color-siege-yellow)]',
                 )}
               >
                 <span className={cn(
                   'flex w-8 items-center justify-center font-mono text-sm font-black text-[var(--color-muted-foreground)]',
-                  place <= 3 && 'text-[var(--color-siege-yellow)]',
+                  getPodiumPlaceClass(place),
                 )}>
                   {place}
                 </span>
@@ -259,9 +274,9 @@ export function LeaderboardTable({ players, memberSearch, platformFilter }: Lead
         <Table className="hidden md:table">
           <TableHeader className="bg-[#343946]">
             <TableRow className="hover:bg-transparent">
-              <TableHead className="w-20 text-xs font-black">Place</TableHead>
+              <TableHead className="w-20 text-center text-xs font-black">Place</TableHead>
               <TableHead className="text-xs font-black">Player</TableHead>
-              <TableHead className="hidden text-xs font-black md:table-cell">Rank</TableHead>
+              <TableHead className="hidden text-center text-xs font-black md:table-cell">Rank</TableHead>
               <TableHead className="hidden text-center text-xs font-black lg:table-cell">Level</TableHead>
               <TableHead className="text-right text-xs font-black">XP</TableHead>
               <TableHead className="hidden text-right text-xs font-black md:table-cell">To Next</TableHead>
@@ -301,11 +316,11 @@ export function LeaderboardTable({ players, memberSearch, platformFilter }: Lead
                     selected && 'shadow-[inset_4px_0_0_var(--color-siege-yellow)]',
                   )}
                 >
-                  <TableCell className="font-mono text-base font-black text-white">
+                  <TableCell className="text-center font-mono text-base font-black text-white">
                     <span
                       className={cn(
                         'inline-flex w-8 items-center justify-center text-[var(--color-muted-foreground)]',
-                        place <= 3 && 'text-[var(--color-siege-yellow)]',
+                        getPodiumPlaceClass(place),
                       )}
                     >
                       {place}
@@ -323,7 +338,7 @@ export function LeaderboardTable({ players, memberSearch, platformFilter }: Lead
                       </div>
                     </div>
                   </TableCell>
-                  <TableCell className="hidden md:table-cell">
+                  <TableCell className="hidden text-center md:table-cell">
                     <RankBadge xp={player.xp} rank={player.rank} showLevel={false} />
                   </TableCell>
                   <TableCell className="hidden text-center font-mono text-base font-black lg:table-cell">
@@ -391,7 +406,9 @@ export function LeaderboardTable({ players, memberSearch, platformFilter }: Lead
             </DrawerContent>
           </Drawer>
           <aside
-            className="hidden overflow-hidden rounded-xl border border-white/10 bg-[#242a36] shadow-2xl shadow-black/30 xl:sticky xl:top-24 xl:block"
+            className={cn(
+              'hidden overflow-hidden rounded-xl border border-white/10 bg-[#242a36] shadow-2xl shadow-black/30 xl:sticky xl:top-24 xl:block',
+            )}
             aria-label="Member details"
           >
             {detailsContent}
@@ -404,7 +421,6 @@ export function LeaderboardTable({ players, memberSearch, platformFilter }: Lead
 
 interface StatsBarProps {
   playerCount: number
-  lastUpdated: string | null
   error: string | null
   memberSearch: string
   onMemberSearchChange: (value: string) => void
@@ -414,20 +430,12 @@ interface StatsBarProps {
 
 export function StatsBar({
   playerCount,
-  lastUpdated,
   error,
   memberSearch,
   onMemberSearchChange,
   platformFilter,
   onPlatformFilterChange,
 }: StatsBarProps) {
-  const updatedLabel = lastUpdated
-    ? new Date(lastUpdated).toLocaleString(undefined, {
-        dateStyle: 'medium',
-        timeStyle: 'short',
-      })
-    : '-'
-
   return (
     <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
       <div className="grid grid-cols-[auto_minmax(0,1fr)] gap-2 sm:flex sm:flex-wrap sm:gap-3">
@@ -457,7 +465,7 @@ export function StatsBar({
             value={memberSearch}
             onChange={(event) => onMemberSearchChange(event.target.value)}
             placeholder="Search member"
-            className="w-full bg-transparent text-white outline-none placeholder:text-[var(--color-muted-foreground)]"
+            className="leaderboard-search-input w-full bg-transparent text-white outline-none placeholder:text-[var(--color-muted-foreground)] focus-visible:outline-none"
             type="search"
           />
         </label>
@@ -474,7 +482,7 @@ export function StatsBar({
           )}
         >
           {error ? <WifiOff className="h-4 w-4" /> : <Wifi className="h-4 w-4" />}
-          {error ? 'Offline' : `Updated ${updatedLabel}`}
+          {error ? 'Offline' : 'Online'}
         </div>
       </div>
     </div>

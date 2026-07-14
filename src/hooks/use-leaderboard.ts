@@ -2,10 +2,13 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import type { LeaderboardData } from '@/types/leaderboard'
 
 const POLL_INTERVAL_MS = 60_000
+const LOCAL_LEADERBOARD_URL = '/data/leaderboard.json'
 const DEFAULT_LEADERBOARD_URL =
   'https://leaderboard.104thbattalionmilsim.com/api/leaderboard'
 
-const leaderboardUrl = import.meta.env.VITE_LEADERBOARD_URL ?? DEFAULT_LEADERBOARD_URL
+const leaderboardUrl =
+  import.meta.env.VITE_LEADERBOARD_URL ??
+  (import.meta.env.DEV ? LOCAL_LEADERBOARD_URL : DEFAULT_LEADERBOARD_URL)
 
 interface UseLeaderboardResult {
   data: LeaderboardData | null
