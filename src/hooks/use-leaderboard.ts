@@ -4,7 +4,7 @@ import type { LeaderboardData } from '@/types/leaderboard'
 const POLL_INTERVAL_MS = 60_000
 const LOCAL_LEADERBOARD_URL = '/data/leaderboard.json'
 const DEFAULT_LEADERBOARD_URL =
-  'https://leaderboard.104thbattalionmilsim.com/api/leaderboard'
+  'https://api.104thbattalionmilsim.com/api/leaderboard'
 
 const leaderboardUrl =
   import.meta.env.VITE_LEADERBOARD_URL ??
